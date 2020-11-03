@@ -140,6 +140,9 @@ public class CodeTest {
                 }
     
                 lastChar = item;
+            } else {
+                result = "Please enter a sequence of numbers";
+                break;
             }
 
         }
